@@ -30,7 +30,7 @@ This project is designed to compile and run on both **Windows** and **Linux/macO
 
 ```powershell
 cd "c:\study\tech\C_programmes\GfG\Text Editor"
-gcc main.c newFile.c append.c read.c log.c getline.c -o editor.exe
+gcc main.c create.c append.c read.c log.c getline.c -o editor.exe
 .
 \editor.exe
 ```
@@ -39,7 +39,7 @@ gcc main.c newFile.c append.c read.c log.c getline.c -o editor.exe
 
 ```bash
 cd "/path/to/Text Editor"
-gcc main.c newFile.c append.c read.c log.c getline.c -o editor
+gcc main.c create.c append.c read.c log.c getline.c -o editor
 ./editor
 ```
 
@@ -50,7 +50,7 @@ gcc main.c newFile.c append.c read.c log.c getline.c -o editor
 ## 📁 Project Structure
 
 - `main.c` – Program entry point and menu.
-- `newFile.c` – Creates a file and writes user input.
+- `create.c` – Creates a file and writes user input.
 - `append.c` – Appends user input to an existing file.
 - `read.c` – Reads and prints file contents.
 - `log.c` – Simple timestamped action logger.
